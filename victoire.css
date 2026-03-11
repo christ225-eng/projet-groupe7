@@ -1,0 +1,77 @@
+/* le font (google font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+margin:0;
+padding:0;
+background:#2e2958;
+font-family: "Platypi", serif;
+font-weight: bold;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+text-align:center;
+color:white;
+
+}
+/* Responsivité */
+.container{
+max-width:900px;
+}
+
+h1{
+ font-family: "Rubik Wet Paint", system-ui;
+font-size:65px;
+margin-top:0px;
+padding-bottom:0px;
+padding-top: 10px;
+}
+
+.sous-titre{
+font-size:22px;
+margin-bottom: 5px;
+padding-bottom: 10px;
+padding-top: 0%;
+}
+
+.emojis{
+font-size:30px;
+margin-bottom:20px;
+}
+
+.ticket{
+width:250px;
+margin:20px auto 40px auto;
+display:block;
+}
+
+.image-haut-gauche{
+position:absolute;
+top:20px;
+left:20px;
+width: 200px;
+}
+
+.btn{
+display:inline-block;
+padding:18px 40px;
+background:linear-gradient(180deg,#c83c5b,#8f1f3e);
+border-radius:40px;
+color:white;
+text-decoration:none;
+font-weight:600;
+font-size:20px;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+.footer{
+margin-top:20px;
+font-size:14px;
+opacity:0.8;
+}

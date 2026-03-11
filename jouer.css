@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #45446B;
+}
+
+.Titre {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+.image{
+    width:280px;
+margin:20px auto 40px auto;
+display:block;
+}
+
+.Titre2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.boutton {
+    margin-top: auto;
+    align-self: center;
+    background-color: #CA6295;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 980px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05rem;
+    border: none; /* Ajouté pour un look plus propre sur les boutons */
+    cursor: pointer;
+}
